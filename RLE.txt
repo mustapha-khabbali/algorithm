@@ -1,0 +1,19 @@
+RLE String Encoder with Validation
+
+Objective:
+Write a function encode that performs run-length encoding (RLE) on a string of printable ASCII characters. The function must strictly follow the rules below.
+
+Rules and Constraints
+
+Alphabetic characters only
+The function should process letters A–Z and a–z only.
+If the string contains any non-alphabetic character, the function must print nothing and return immediately.
+
+Run-length encoding
+Consecutive identical characters are replaced with a count followed by the character.
+Example: "aaabbc" → "3a2bc".
+Single characters are printed as-is.
+
+Maximum run length
+If a run of consecutive identical characters is longer than 9, the function must print nothing and return immediately.
+
